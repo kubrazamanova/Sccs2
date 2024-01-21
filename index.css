@@ -22,6 +22,10 @@
 }
 .container .container-1 nav ul li {
   list-style-type: none;
+  /* li .white-box {
+      border-radius: 35px;
+  background: #FFF;
+   } */
 }
 .container .container-1 nav ul li a {
   margin-left: 32px;
@@ -39,7 +43,7 @@
   display: flex;
   align-items: center;
   border-radius: 35px;
-  background: #FFF;
+  background: #fff;
   width: 222px;
   height: 40px;
 }
@@ -51,14 +55,6 @@
   margin-left: 10px;
   border: none;
   outline: none;
-}
-.container .container-1 nav form input::-moz-placeholder {
-  color: #929292;
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .container .container-1 nav form input::placeholder {
   color: #929292;
@@ -140,6 +136,16 @@
 .container .container-1 .box-container .right-side img {
   margin-top: 82px;
 }
+.container .container-1 h2 {
+  margin-top: 143px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
 
 .container-2 h2 {
   margin-bottom: 44px;
@@ -151,39 +157,70 @@
   line-height: normal;
   letter-spacing: 1.28px;
 }
+.container-2 .coffee-box {
+  background-color: #f9d9aa;
+  width: 1268px;
+  height: 367px;
+  border-radius: 60px;
+  position: relative;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .container-2 .coffee-box ul {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 87px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .container-2 .coffee-box ul li {
-  width: 343px;
-  height: 373px;
+  width: 355px;
+  height: 385px;
+  padding: 24px 18px 123px 18px;
   list-style-type: none;
   margin-left: 24px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.container-2 .coffee-box ul li img {
-  width: 307px;
+.container-2 .coffee-box ul li .main-img {
+  width: 100%;
   height: 226px;
+  border-radius: 15px;
 }
 .container-2 .coffee-box ul li .name-box {
   display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+  margin-bottom: 19px;
 }
 .container-2 .coffee-box ul li .name-box p {
   margin-left: 69px;
 }
 .container-2 .coffee-box ul li .name-box1 {
   display: flex;
+  justify-content: space-between;
 }
-.container-2 .coffee-box ul li .name-box1 img {
-  display: flex;
+.container-2 .coffee-box ul li .name-box1 .buttons-box img {
   width: 64px;
   height: 32px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
 .container-2 .coffee-box ul li .service-main-box {
   display: block;
   justify-content: center;
-}/*# sourceMappingURL=index.css.map */
+}
+.container-2 main {
+  padding: 0 138px 139px 138px;
+}
+.container-2 main h4 {
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
