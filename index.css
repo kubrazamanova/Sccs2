@@ -52,6 +52,14 @@
   border: none;
   outline: none;
 }
+.container .container-1 nav form input::-moz-placeholder {
+  color: #929292;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .container .container-1 nav form input::placeholder {
   color: #929292;
   font-family: Poppins;
@@ -132,3 +140,50 @@
 .container .container-1 .box-container .right-side img {
   margin-top: 82px;
 }
+
+.container-2 h2 {
+  margin-bottom: 44px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container-2 .coffee-box ul {
+  display: flex;
+  justify-content: center;
+}
+.container-2 .coffee-box ul li {
+  width: 343px;
+  height: 373px;
+  list-style-type: none;
+  margin-left: 24px;
+}
+.container-2 .coffee-box ul li img {
+  width: 307px;
+  height: 226px;
+}
+.container-2 .coffee-box ul li .name-box {
+  display: flex;
+}
+.container-2 .coffee-box ul li .name-box p {
+  margin-left: 69px;
+}
+.container-2 .coffee-box ul li .name-box1 {
+  display: flex;
+}
+.container-2 .coffee-box ul li .name-box1 img {
+  display: flex;
+  width: 64px;
+  height: 32px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container-2 .coffee-box ul li .service-main-box {
+  display: block;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

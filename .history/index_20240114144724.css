@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 41px 229px 235px 135px;
+  min-height: 100vh;
+  background-image: url("./images/bg-image.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container nav {
+  display: flex;
+}
+.container nav ul {
+  display: flex;
+  align-items: center;
+  margin-left: 269px;
+}
+.container nav ul li {
+  list-style-type: none;
+}
+.container nav ul li a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .box-container .left-side h1 {
+  margin-top: 147px;
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .box-container .left-side p {
+  margin-top: 24px;
+  color: var(--light, #7e7d7a);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .box-container .left-side .left-side-box1 {
+  display: flex;
+  align-items: center;
+}
+.container .box-container .left-side .left-side-box1 b {
+  margin-top: 35px;
+  color: #f4ae26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .box-container .left-side .left-side-box1 .black-box {
+  padding: 12px 32px;
+  margin-top: 32px;
+}
+.container .box-container .left-side .left-side-box1 .black-box a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 33px;
+  background: var(--Secondary, #2f2105);
+  box-shadow: 0px 4px 32px 0px rgba(223, 195, 124, 0.25);
+}
+.container .box-container .left-side .left-side-box1 .black-box svg {
+  width: 12px;
+  position: relative;
+  right: 30px;
+  top: 8px;
+}
+.container .box-container .right-side img {
+  margin-top: 82px;
+}/*# sourceMappingURL=index_20240114144724.css.map */

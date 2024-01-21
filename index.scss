@@ -155,3 +155,72 @@
   }
   
 }
+
+.container-2 {
+  
+h2 {
+  margin-bottom: 44px;
+  color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.28px;
+}
+
+.coffee-box {
+  
+  ul {
+    display: flex;
+   justify-content: center;
+
+
+    li {
+      width: 343px;
+height: 373px;
+      // padding: 24px 18px 123px 18px;
+      list-style-type: none;
+  margin-left: 24px;
+
+img {
+  width: 307px;
+  height: 226px;
+}
+
+.name-box {
+  display: flex;
+
+  p{
+    margin-left: 69px;
+  }
+}
+
+.name-box1 {
+  display: flex;
+
+  img{
+    display: flex;
+width: 64px;
+height: 32px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  }
+
+
+
+}
+
+.service-main-box {
+  display: block;
+  justify-content: center;
+}
+
+    }
+  }
+}
+
+
+}
