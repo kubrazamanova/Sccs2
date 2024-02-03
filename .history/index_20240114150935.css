@@ -52,14 +52,6 @@
   border: none;
   outline: none;
 }
-.container-1 nav form input::-moz-placeholder {
-  color: #929292;
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 .container-1 nav form input::placeholder {
   color: #929292;
   font-family: Poppins;
@@ -139,4 +131,4 @@
 }
 .container-1 .box-container .right-side img {
   margin-top: 82px;
-}/*# sourceMappingURL=index_20240114150935.css.map */
+}
