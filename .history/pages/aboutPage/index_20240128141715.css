@@ -1,0 +1,45 @@
+.container-3 {
+  padding: 125px 0 120px 0;
+}
+.container-3 .about-us {
+  width: 1441px;
+  height: 484px;
+}
+.container-3 .about-us .about-us-box h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container-3 .about-us .about-us-box h2 {
+  width: 348px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.container-3 .about-us .about-us-box p {
+  color: var(--light, #7E7D7A);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.container-3 .about-us .about-us-box a {
+  text-decoration: none;
+  display: flex;
+  width: 142px;
+  height: 38px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=index_20240128141715.css.map */
